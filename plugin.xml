@@ -89,6 +89,13 @@
 		</js-module>
 	</platform>
 
+	<!-- windows -->
+	<platform name="windows">
+		<js-module src="src/windows8/platform.js" name="platform">
+			<merges target="" />
+		</js-module>
+	</platform>
+
 	<!-- blackberry10 -->
 	<!-- using localStorage fallback -->
 	<platform name="blackberry10">
